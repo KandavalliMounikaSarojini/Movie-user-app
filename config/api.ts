@@ -10,7 +10,7 @@ const getApiUrl = () => {
         const hostIp = hostUri.split(':')[0];
         return `http://${hostIp}:8000`;
     }
-    return 'http://192.168.1.2:8000';
+    return 'http://10.210.14.151:8000';
 };
 
 export const API_URL = getApiUrl();
